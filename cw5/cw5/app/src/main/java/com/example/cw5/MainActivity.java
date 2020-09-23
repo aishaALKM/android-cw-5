@@ -16,12 +16,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button a=findViewById(R.id.nextPage);
-        EditText b=findViewById(R.id.name);
-        EditText c=findViewById(R.id.age);
+        final EditText b=findViewById(R.id.name);
+        final EditText c=findViewById(R.id.age);
         a.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                String f= b.getText().toString();
+                String l= c.getText().toString();
                 Intent o = new Intent( MainActivity.this,MainActivity2.class);
+                o.putExtra("info",f);
+                o.putExtra("inf",l);
+                startActivity(o);
+
 
             }
         });

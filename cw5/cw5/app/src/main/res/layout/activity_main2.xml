@@ -4,17 +4,67 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E3AAAA"
+    android:backgroundTint="#6C0C0C"
     tools:context=".MainActivity2">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="299dp"
-        android:layout_height="136dp"
+    <TextView
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="406dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="305dp"
+        android:background="#D34A40"
+        android:drawablePadding="7dp"
         android:ems="10"
+        android:hint="MID TERMS"
         android:inputType="textPersonName"
-        android:text="Name" />
+        android:padding="7dp"
+        android:text="Name:"
+        android:textColor="#F4E4E4"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="147dp"
+        android:layout_height="68dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="413dp"
+        android:background="#D34A40"
+        android:drawablePadding="7dp"
+        android:ems="10"
+        android:hint="MID TERMS"
+        android:inputType="textPersonName"
+        android:padding="7dp"
+        android:text="Age:"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="190dp"
+        android:layout_height="95dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="179dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Back"
+        android:textColor="#9A0808"
+        android:textSize="36sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="190dp"
+        android:layout_height="118dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="117dp"
+        android:layout_marginBottom="530dp"
+        app:srcCompat="@drawable/hospital" />
+
 </RelativeLayout>
