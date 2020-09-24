@@ -5,17 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#E3AAAA"
-    android:backgroundTint="#6C0C0C"
+    android:backgroundTint="#92D0EC"
     tools:context=".MainActivity2">
 
     <TextView
         android:id="@+id/editTextTextPersonName"
-        android:layout_width="160dp"
-        android:layout_height="80dp"
+        android:layout_width="215dp"
+        android:layout_height="65dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="131dp"
-        android:layout_marginBottom="305dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="252dp"
         android:background="#D34A40"
         android:drawablePadding="7dp"
         android:ems="10"
@@ -28,13 +28,13 @@
 
     <TextView
         android:id="@+id/editTextTextPersonName3"
-        android:layout_width="147dp"
+        android:layout_width="213dp"
         android:layout_height="68dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="138dp"
-        android:layout_marginBottom="413dp"
-        android:background="#D34A40"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="343dp"
+        android:background="#A3241B"
         android:drawablePadding="7dp"
         android:ems="10"
         android:hint="MID TERMS"
@@ -50,8 +50,8 @@
         android:layout_height="95dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="121dp"
-        android:layout_marginBottom="179dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="109dp"
         android:backgroundTint="#FFFFFF"
         android:text="Back"
         android:textColor="#9A0808"
@@ -63,8 +63,18 @@
         android:layout_height="118dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="117dp"
-        android:layout_marginBottom="530dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="439dp"
         app:srcCompat="@drawable/hospital" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="120dp"
+        android:layout_height="153dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="551dp"
+        app:srcCompat="@drawable/heart" />
 
 </RelativeLayout>
